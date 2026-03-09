@@ -1,0 +1,125 @@
+constructor is one special block of any class 
+constructor name should be same as class name
+it should not have any return type.
+we can not use static keyword also before constructor
+when we are creating the object by using the new keyword, that time only constructor will be executed.
+it is used to intialize all the non static variable of the class.
+
+<--types of contructor-->
+    we have two types of constructor.
+        1.non parameterized constructor
+        2.parameterized constructor
+
+
+int the  Q2_class2.java programe there is no user definded constructor.
+so it will execute default constructor.
+
+
+<--non parameterized constructor-->
+
+
+syntax:
+    [accessmodifier] [modifierr] c lassname()
+    {
+
+    }
+
+any constructor that does not have formal argument is called non parameterized constructor.
+
+
+<--parameterized constructor-->
+    constructor that having formal arguments is called parameterized contructor
+
+syntax:
+    [access modifier] [modifier] classname(formal arfument)
+    {
+
+    }
+
+when we are creating object by using new kewword that time  only we have to pass the original arguments.
+
+for each object we can assign different value by using this constructor.
+
+
+<------------THIS----------------->
+1.this is a keyword it is used to defind the current object
+2.when we have local variable and instance variable same name that time for accessing the instance variable we can use this keyword.
+3.this keyword we can not use inside static context.
+4.this keyword is also called as reference variable.
+
+
+<--------Constructor Chaining--------------->
+when we are calling one constructor from another constructor is called constructor chaining.
+
+we can do constructor chaining in same class as well as from different class.
+
+in the same class if we want to do constructor chainging we need this() statement.
+
+<-----------this() statement------------->
+this() calling statement is used to perform constructor chaining.
+
+this() statement should be the first statement in the constructor.
+
+when we are calling another constructor by using this() 
+if we are passing any arguments that should match with another constructor signature.
+
+<----------constructor chaning in different class----------->
+this is the process of calling super class constructor inside child class constructor.
+
+<------------super() statement----------->
+super() is used to perform constructor chaining in two  different classes.
+
+it should be first statement inside the constructor.
+
+if user is not giving super() , compiler will add that.
+
+note: for ddoing constructor chaining in different 
+
+
+now parent class constructor will load the
+
+then it will retrun back to child class constructor and it will load all the nonstatic members inside the object in the heap area
+
+here we can see we aree creating the object of child but it is loading the loading the properties of both parent and child.
+
+
+<-----reference variable------->
+this variable stores the address of object.
+
+we can create multiple referance variable and we can store one referance vaiable into another variable.
+ 
+by using this we can acess all the properties of the object.
+
+package reference_variable;
+
+example: 
+class Qspider
+{
+    String loc="arumpakkam";
+}
+
+
+package reference_variable;
+
+public class Jspider {
+    public static void main(String[] args) {
+        Qspider j1=new Qspider();
+        Qspider j2=new Qspider();
+        System.out.println("j1 address:"+j1);
+        System.out.println("j2 address:"+j2);
+
+        Qspider j3=j2;
+        Qspider j4=j3;
+        Qspider j5=j4;
+
+        System.out.println("j3 address: "+j3);
+        System.out.println("j3 address: "+j4);
+        System.out.println("j3 address: "+j5);
+        
+
+    }
+}
+
+in thiis example ob1 and ob2 address will be different 
+but ob2,ob3,ob4,ob5,address will be same.
++0

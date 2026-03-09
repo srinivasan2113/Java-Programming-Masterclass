@@ -1,0 +1,8 @@
+class loading process
+         when JRE executing any byte code that time it will take 4 blockes of memory form the RAM
+         inside static pool area it will take one dedicated area for the class, class static area.
+         inside that csa alll the sataic variable willl be stored and value will be their default value
+         it will store all he static intialixers and the static method address and their method signature.
+         now it will execute all the static intializers from top  to bottom before executing the main method.
+         if all the static insitializers is executed then class loading process is completed.then main method will store inside the stack area.
+

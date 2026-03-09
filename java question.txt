@@ -1,0 +1,13 @@
+1.what is the meaning of platform independent
+2.source converted to which code
+3.how many datatypes
+4.primitive and non primitive different
+5.in primitive how many datatypes have
+6.what is constructor
+7.use of non parameterizd constructor
+8.this keyword
+9.what is reference variable
+10.singletone class
+11.inheritance
+12.level of inheritance
+13.
