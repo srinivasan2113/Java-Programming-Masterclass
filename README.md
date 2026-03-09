@@ -44,5 +44,7 @@ A comprehensive collection of Java programs covering core concepts, Object-Orien
 
 ---
 
-\*Created by \[Srinivasan Marimuthu](https://github.com/srinivasan2113)\*
+\### Created by
+
+\[Srinivasan Marimuthu](https://github.com/srinivasan2113)
 
